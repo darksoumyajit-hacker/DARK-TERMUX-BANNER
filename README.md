@@ -1,12 +1,10 @@
-# DARK-TERMUX-BANNER
-NEW TRENDING BANNER MADE BY DARK-SOUMYAJIT
 # DARK-SOUMYA Termux Banner Installer
 
 <div align="center">
-  <img src="screenshots/banner.png" alt="DARK-SOUMYA Banner" width="600">
+  <img src="https://files.catbox.moe/obwuvv.jpg" alt="DARK-SOUMYA Banner" width="600">
   <br>
   <h3>⚡ Customize Your Termux with Style ⚡</h3>
-  <p><strong>Created by <a href="https://github.com/soumyajit">@soumyajit</a></strong></p>
+  <p><strong>Created by <a href="https://github.com/darksoumyajit-hacker">@soumyajit</a></strong></p>
 </div>
 
 ## 🎯 About
@@ -36,8 +34,18 @@ Open Termux and run these commands:
 
 ```bash
 pkg update && pkg upgrade -y
+
+```bash
 pkg install git -y
-git clone https://github.com/soumyajit/DARK-SOUMYA.git
-cd DARK-SOUMYA
+
+```bash
+git clone https://github.com/darksoumyajit-hacker/DARK-TERMUX-BANNER.git
+
+```bash
+cd DARK-TERMUX-BANNER
+
+```bash
 chmod +x install.sh
+
+```bash
 bash install.sh
