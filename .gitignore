@@ -1,0 +1,64 @@
+# Backup files
+*.backup
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Termux specific
+.bashrc
+.bash_history
+.bash_logout
+.zshrc
+.zsh_history
+
+# Project specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+*.tmp
+
+# Configuration files
+*.conf.local
+
+# Temporary files
+tmp/
+temp/
+*.temp
+
+# Screenshots except examples
+screenshots/*.png
+screenshots/*.jpg
+!screenshots/.gitkeep
+
+# Fonts (if any)
+fonts/*.ttf
+fonts/*.otf
+!fonts/.gitkeep
+
+# Testing
+test/
+tests/
+*.test
+
+# Backup directories
+.darksoumya_backup/
+.darksoumya/
+
+# Package manager files
+package-lock.json
+yarn.lock
+composer.lock
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
